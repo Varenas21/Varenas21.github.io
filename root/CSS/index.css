@@ -113,12 +113,12 @@
 
 /* ANIMATED BUTTON */
 .animated-button {
-  min-width: 200px;
-  min-height: 50px;
+  min-width: 300px;
+  min-height: 60px;
   font-family: 'Nunito', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.3px;
   font-weight: 700;
   color: #9e16c3;
   background: #c42da8;
@@ -130,7 +130,7 @@
   cursor: pointer;
   outline: none;
   position: relative;
-  padding: 10px 20px;
+  padding: 10px 50px;
   margin-top: 20px; /* Add margin top to separate from the header */
 }
 
