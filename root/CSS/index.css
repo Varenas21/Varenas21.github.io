@@ -159,7 +159,7 @@
   background: #c42da8;
   background: linear-gradient(90deg, rgb(198, 129, 230) 0%, rgb(198, 79, 209) 100%);
   border: none;
-  border-radius: 1000px;
+  border-radius: 500px;
   box-shadow: 12px 12px 24px rgba(172, 79, 209, 0.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
