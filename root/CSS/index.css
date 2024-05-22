@@ -62,7 +62,7 @@
 .column {
   float: left;
   width: 20%;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .row::after {
