@@ -1,4 +1,10 @@
 /* Container holding the image and the text */
+
+.body{
+  color: white;
+  text-align: center;
+  font-family: "Nunito",sans-serif;
+}
 .container {
   position: relative;
   text-align: center;
