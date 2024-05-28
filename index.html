@@ -10,14 +10,14 @@
     <title> Valeria Arenas Portfolio 2024</title>
 </head>
 
-<body class="bg-gray-100">
+<body class="text-white" style="background-color:#131618;">
 
     <!-- Navbar -->
     <nav class="bg-white shadow fixed w-full z-10">
         <div class="container mx-auto px-4">
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0">
-                    <a href="#" class="text-xl font-bold text-gray-900">Valeria Arenas</a>
+                    <a href="/index.html" class="text-xl font-bold text-gray-900">Valeria Arenas</a>
                 </div>
                 <div class="hidden md:flex md:space-x-8">
                     <a href="./root/View/AboutMe.html" class="text-gray-700 hover:text-gray-900">About Me</a>
@@ -38,20 +38,25 @@
     </nav>
 
     <!-- About Me Section -->
-    <section id="about" class="py-16">
+    <section id="about" class="relative h-96 lg:h-[36rem]">
         <div class="container mx-auto text-center">
-            <h1 class="text-3xl font-semibold mb-4 typewriter">Hi, I'm Valeria Arenas. Software Engineer | Game
-                Developer</h1>
-                <img src="./root/Images/PfpCasual.jpg" class="mx-auto rounded-full w-80 h-80 mb-4">
+            <img src="./root/Images/MainBanner.png" alt="MainBanner"
+                class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black bg-opacity-0 flex flex-col items-center justify-center space-y-4">
+                <h1 class="text-white text-3xl font-bold tracking-widest">Hi, I'm Valeria Arenas</h1>
+                <h4 class="text-white text-2xl font-bold tracking-widest">Software Engineer | Game Developer</h4>
+                <img src="./root/Images/PfpCasual.jpg" class="mx-auto rounded-full w-80 h-80 mb-4 border-solid border-4 border-white">
+            </div>
+
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-16 bg-white">
-        <section id="projects" class="py-16 bg-white">
+    <section id="projects" class="py-16 ">
+        <section id="projects" class="py-16 ">
             <div class="container mx-auto text-center">
                 <h2 class="text-3xl font-semibold mb-4">Projects</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-60">
                     <!-- Card 1 -->
                     <a href="./root/View/Tasko.html" class="relative block overflow-hidden rounded-lg shadow-lg">
                         <img src="./root/Images/Logo.png" alt="Tasko" class="w-full h-full object-cover">
@@ -68,27 +73,36 @@
                     </a>
                 </div>
             </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-semibold mb-4">Contact</h2>
-            
-        </div>
-    </section>
+        <!-- Contact Section -->
+        <section id="contact" class="py-16">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+                <div class="flex justify-center space-x-60">
+                    <div class="flex flex-col items-center">
+                        <img src="./root/Images/githubLogo.png" alt="Github" class="w-48 h-48 object-cover ">
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./root/Images/LinkedInLogo.png" alt="LinkedIn"
+                            class="w-48 h-48 object-cover rounded-md">
+                    </div>
+                </div>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 Valeria Arenas Portfolio. All rights reserved.</p>
-        </div>
-    </footer>
+            </div>
+        </section>
 
-    <script>
-        // Toggle the navbar menu on small screens
-        document.querySelector('button[aria-label="Toggle navigation"]').addEventListener('click', () => {
-            document.querySelector('.md\\:hidden').classList.toggle('hidden');
-        });
-    </script>
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2024 Valeria Arenas Portfolio. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script>
+            // Toggle the navbar menu on small screens
+            document.querySelector('button[aria-label="Toggle navigation"]').addEventListener('click', () => {
+                document.querySelector('.md\\:hidden').classList.toggle('hidden');
+            });
+        </script>
 </body>
