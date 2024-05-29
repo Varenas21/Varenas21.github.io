@@ -1,0 +1,108 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/root/CSS/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/root/Javascript/index.js"></script>
+    <title> Valeria Arenas Portfolio 2024</title>
+    <script>
+        // Toggle the navbar menu on small screens
+        document.querySelector('button[aria-label="Toggle navigation"]').addEventListener('click', () => {
+            document.querySelector('.md\\:hidden').classList.toggle('hidden');
+        });
+    </script>
+</head>
+
+<!-- NAVBAR -->
+<nav class="bg-white shadow fixed w-full z-10">
+    <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between h-16">
+            <div class="flex-shrink-0">
+                <a href="/index.html" class="text-xl font-bold text-gray-900">Valeria Arenas</a>
+            </div>
+            <div class="hidden md:flex md:space-x-8">
+                <a href="https://github.com/Varenas21">
+                    <div class="flex flex-col items-center">
+                        <img src="../Images/githubLogo.png" alt="Github" class="w-14 h-14 object-cover ">
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/valeria-arenas/">
+                    <div class="flex flex-col items-center transition ease-out duration-700">
+                        <img src="../Images/LinkedInLogo.png" alt="LinkedIn"
+                            class="w-14 h-14 object-cover rounded-md transition ease-out duration-700">
+                    </div>
+                </a>
+
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-700 hover:text-gray-900 focus:outline-none focus:text-gray-900"
+                    aria-label="Toggle navigation">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<body style="background-color: #000000;">
+<!-- TITLE/BANNER SECTION -->
+<section id="LightGone" class="relative h-96 lg:h-[36rem]">
+
+    <img src="../Images/MotorolaBanner.png" alt="Motorola" class="absolute inset-0 w-full h-full object-cover">
+
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center space-y-4">
+        <h1 class="text-white text-6xl font-bold tracking-widest">Motorola Solutions</h1>
+        <h4 class="text-white text-3xl font-bold tracking-widest">Neumont Collaborative Project</h4>
+        <h4 class="text-white text-3xl font-bold tracking-widest">March 2024 - Current</h4>
+    </div>
+</section>
+
+
+<!-- CHALLENGE SECTION -->
+<section id="ChallengeLG" class="py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl text-white font-semibold mb-4">Challenge</h2>
+        <p class="text-white text-xl">
+            FILLER
+        </p>
+    </div>
+</section>
+<hr/>
+<!-- SOLUTION SECTION -->
+<section id="SolutionLG" class="py-16">
+    <div class="container mx-auto flex flex-col md:flex-row items-center text-left">
+        <div class="md:w-2/3 p-4">
+            <h2 class="text-3xl text-white font-semibold mb-4">Solution</h2>
+            <p class="text-white text-xl space-y-8">
+                SOLUTION
+            </p>
+            <br />
+            <ul class="list-decimal list-inside text-white text-xl space-y-4">
+                <li>
+                    FILLER
+                </li>
+                <li>
+                    FILLER
+                </li>
+                <li>
+                    FILLER
+                </li>
+            </ul>
+        </div>
+        <br />
+    </div>
+</section>
+<hr />
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Valeria Arenas Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
