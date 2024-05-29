@@ -7,6 +7,18 @@
     <script src="/root/Javascript/index.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title> Valeria Arenas Experience 2024</title>
+    <script>
+        // Toggle the navbar menu on small screens
+        document.querySelector('button[aria-label="Toggle navigation"]').addEventListener('click', () => {
+            document.querySelector('.md\\:hidden').classList.toggle('hidden');
+        });
+        function GoToNewPage() {
+            var url = document.getElementById('list').value;
+            if (url !== 'none') {
+                window.location = url;
+            }
+        }
+    </script>
 </head>
 
 <body style="background-color: #000000;">
@@ -17,6 +29,21 @@
                 <div class="flex-shrink-0">
                     <a href="/index.html" class="text-xl font-bold text-gray-900">Valeria Arenas</a>
                 </div>
+
+                <form>
+                    <div class="relative justify-between">
+                        <select name="list" id="list" accesskey="target"
+                            class="w-72 py-2 pr-8 border-2 rounded-lg text-center text-l flex-shrink-0">
+                            <option value="./AboutMe.html">About Me</option>
+                            <option value="./Tasko.html">Tasko</option>
+                            <option value="./LightGone.html">LightGone</option>
+                            <option value="./NotABurger.html">NotABurger</option>
+                        </select>
+                        <input type="button" value="Go" onclick="GoToNewPage()"
+                            class="absolute px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 cursor-pointer text-l">
+                    </div>
+                </form>
+
                 <div class="hidden md:flex md:space-x-8">
                     <a href="https://github.com/Varenas21">
                         <div class="flex flex-col items-center">

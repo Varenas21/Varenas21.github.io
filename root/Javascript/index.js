@@ -20,6 +20,14 @@ function navigateToPage(url)
     })
 }
 
+function GoToNewPage()
+{
+    var url = document.getElementById('list').value;
+    if(url != 'none') {
+        window.location = url;
+    }
+}
+
 function toggleMenu()
 {
     var menu = document.querySelector('.menu-items');
