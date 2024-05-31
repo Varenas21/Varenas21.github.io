@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/root/CSS/index.css">
-    <script src="/root/Javascript/index.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title> Valeria Arenas Tasko 2024</title>
+    <script src="/root/Javascript/index.js"></script>
+    <title> Valeria Arenas Dire Authority 2024</title>
     <script>
         // Toggle the navbar menu on small screens
         document.querySelector('button[aria-label="Toggle navigation"]').addEventListener('click', () => {
@@ -18,13 +18,12 @@
             }
         }
     </script>
-
-<style>
-    /* Ensure the dropdown only appears on hover */
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-</style>
+        <style>
+            /* Ensure the dropdown only appears on hover */
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+        </style>
 </head>
 
 <body style="background-color: #000000;">
@@ -50,10 +49,11 @@
                         <select name="list" id="list" accesskey="target"
                             class="w-72 py-2 pr-8 border-2 rounded-lg text-center text-l flex-shrink-0">
                             <option value="/index.html">About Me</option>
-                            <option value="./Tasko.html">Tasko</option>
-                            <option value="./LightGone.html">LightGone</option>
-                            <option value="./NotABurger.html">NotABurger</option>
                             <option value="./MotorolaFLEX.html">Motorola Solutions FLEX</option>
+                            <option value="./LightGone.html">LightGone</option>
+                            <option value="./Tasko.html">Tasko</option>
+                            <option value="./MotorolaFLEX.html">Dire Authority</option>
+                            <option value="./NotABurger.html">NotABurger</option>
                         </select>
                         <input type="button" value="Go" onclick="GoToNewPage()"
                             class="absolute px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 cursor-pointer text-l">
@@ -87,32 +87,33 @@
             </div>
         </div>
     </nav>
+    <!-- TITLE/BANNER SECTION -->
+    <section id="Motorola" class="relative h-96 lg:h-[36rem]">
 
-    <!-- TITLE/BANNER -->
-    <section id="LightGone" class="relative h-96 lg:h-[36rem]">
+        <img src="../Images/DireAuthorityBanner.png" alt="Motorola" class="absolute inset-0 w-full h-full object-cover">
 
-        <img src="../Images/TaskoBanner.png" alt="LightGone" class="absolute inset-0 w-full h-full object-cover">
-
-        <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center space-y-4">
-            <h1 class="text-white text-6xl font-bold tracking-widest">Tasko</h1>
-            <h4 class="text-white text-3xl font-bold tracking-widest">Neumont Senior Capstone Project</h4>
-            <h4 class="text-white text-3xl font-bold tracking-widest">September - December 2023</h4>
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center space-y-4">
+            <h1 class="text-white text-6xl font-bold tracking-widest">Dire Authority</h1>
+            <h4 class="text-white text-3xl font-bold tracking-widest">Neumont Summer Game Jam 2023</h4>
         </div>
     </section>
+
 
     <!-- CHALLENGE SECTION -->
     <section id="ChallengeLG" class="py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl text-white font-semibold mb-4">Challenge</h2>
             <p class="text-white text-xl">
-                Design and develop Tasko, an intuitive task management app originally aimed at children with autism,
-                later expanded for all children. The goal was to create a system where children earned game access by
-                completing tasks. This required user-friendly design, clear visuals, simple navigation, and robust
-                security measures. As Tasko evolved, the app needed to scale effectively while maintaining its engaging
-                reward system and ensuring privacy and safety for users.
+                Design and develop a robust application for Motorola Solutions aimed at retrieving data from police
+                departments to maintain and update servers as needed. The application required seamless integration with
+                existing systems, high reliability, and the ability to handle sensitive data securely. Our team faced
+                the challenge of creating a system that could efficiently manage large volumes of data and perform
+                updates in real-time. This project involved using React.js for the frontend, C# and .NET for the
+                backend, MongoDB for the database, and various APIs for data integration.
             </p>
         </div>
     </section>
+    
     <hr />
 
     <!-- SOLUTION SECTION -->
@@ -121,43 +122,44 @@
             <div class="md:w-2/3 p-4">
                 <h2 class="text-3xl text-white font-semibold mb-4">Solution</h2>
                 <p class="text-white text-xl space-y-8">
-                    To address these challenges, I implemented a structured and iterative development process, focusing
-                    on the following key solutions.
+                    To meet the challenge of developing the Motorola Solutions application, our team employed a
+                    structured and agile approach. We broke down the project into manageable phases, including planning,
+                    prototyping, development, and testing. Key elements of our solution included:
                 </p>
                 <br />
                 <ul class="list-decimal list-inside text-white text-xl space-y-4">
                     <li>
-                        <strong>User-Centric Design </strong>: Conducted extensive research and testing to create an
-                        interface that is both engaging and easy to navigate.
-                        The design prioritized accessibility features such as visual aids.
+                        <strong>Effective Collaboration</strong>: Utilized collaboration tools such as BitBucket and
+                        Jira and held regular meetings to ensure clear communication and alignment within the team.
+                        This allowed us to quickly address any issues and make necessary changes.
                     </li>
                     <li>
-                        <strong>Motivating Rewards </strong>: Integrated a virtual pet game using Unity and WebGL as a
-                        reward for task completion,
-                        providing a fun and engaging incentive for children.
+                        <strong>Seamless Data Integration</strong>: Implemented robust API integrations to efficiently
+                        retrieve and manage data from police departments.
+                        This ensured real-time updates and seamless data flow between systems.
                     </li>
                     <li>
-                        <strong>Task Priorization</strong>: By prioritizing tasks based on their impact on the overall
-                        project and deadlines, we ensured that critical features were developed first,
-                        allowing us to focus on polishing and enhancing the game in the later stages.
+                        <strong> Scalable Architecture</strong>: Designed a scalable architecture using React.js for the
+                        frontend and C#
+                        with .NET for the backend, ensuring the application could handle large volumes of data and
+                        provide quick, reliable updates.
+                    </li>
+                    <li>
+                        <strong> Enhanced Security</strong>: Implemented robust security measures to protect sensitive
+                        data and ensure safe interactions within the application. This included secure login systems,
+                        data encryption, and regular security audits to identify and mitigate potential vulnerabilities.
                     </li>
                 </ul>
-
                 <div class="space-y-8 items-center">
-                    <a href="https://github.com/Varenas21/TaskoCapstone">
+                    <a href="https://varenas.itch.io/dire-authority">
                         <button class="bg-gray-100 hover:bg-gray-800 text-gray-900 font-bold py-2 px-4 rounded-full">
-                            GitHub Page
+                           Itch.io Page
                         </button>
                     </a>
                 </div>
             </div>
-            <div class="md:w-1/3 p-4">
-                <video alt="LightGone Solution" class="w-full h-auto object-cover rounded-lg shadow-lg" autoplay muted
-                    controls>
-                    <source src="../Images/CasptoneGame.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+            <br />
+
         </div>
     </section>
     <hr />
@@ -174,14 +176,12 @@
                     <img src="../Images/CSharpLogo.png" alt="CSharp" class="w-48 h-56 object-cover">
                 </div>
                 <div class="flex flex-col items-center">
-                    <img src="../Images/NetLogo.png" alt="CSharp" class="w-56 h-56 object-cover">
-                </div>
-                <div class="flex flex-col items-center">
-                    <img src="../Images/githubLogo.png" alt="CSharp" class="w-48 h-48 object-cover">
+                    <img src="../Images/Audacity_Logo.png" alt="CSharp" class="w-48 h-48 object-cover">
                 </div>
             </div>
         </div>
     </section>
+    <hr />
 
     <!-- FOOTER -->
     <footer class="bg-gray-800 text-white py-4">
@@ -189,4 +189,5 @@
             <p>&copy; 2024 Valeria Arenas Portfolio. All rights reserved.</p>
         </div>
     </footer>
+
 </body>
