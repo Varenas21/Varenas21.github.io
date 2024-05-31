@@ -8,6 +8,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/root/Javascript/index.js"></script>
     <title> Valeria Arenas Portfolio 2024</title>
+    <style>
+        /* Ensure the dropdown only appears on hover */
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
 
 </head>
 
@@ -18,7 +24,15 @@
             <div class="flex items-center justify-between h-16">
                 <div class="flex-shrink-0 flex items-center space-x-4">
                     <a href="/index.html" class="text-xl font-bold text-gray-900">Valeria Arenas</a>
-                    <button id="contactBtn" class="bg-white text-black px-2 py-2 rounded-md hover:bg-gray-100">Contact Information</button>
+                    <div class="relative dropdown">
+                        <button id="contactBtn" class="bg-white text-black px-2 py-2 rounded-md hover:bg-gray-100">Contact Information</button>
+                        <div class="absolute right-0 mt-2 w-60 bg-white text-black rounded-lg shadow-lg hidden dropdown-menu">
+                            <div class="px-4">
+                                <p>Email: vava.tx66@gmail.com</p>
+                                <p>Phone: (915) 234-0232</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="hidden md:flex md:space-x-8">
@@ -43,17 +57,6 @@
             </div>
         </div>
     </nav>
-
-
-    <!-- Contact Information Modal -->
-    <div id="contactModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
-        <div class="bg-white text-black rounded-lg p-6 relative w-1/3">
-            <button id="closeModal" class="absolute top-2 right-2 text-black">&times;</button>
-            <h2 class="text-2xl font-bold mb-4">Contact Information</h2>
-            <p>Email: vava.tx66@gmail.com</p>
-            <p>Phone: (915) 234-0232</p>
-        </div>
-    </div>
 
     <!-- TITLE/BANNER SECTION -->
     <section id="about" class="relative h-96 lg:h-[36rem]">

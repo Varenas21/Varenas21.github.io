@@ -18,6 +18,12 @@
             }
         }
     </script>
+        <style>
+            /* Ensure the dropdown only appears on hover */
+            .dropdown:hover .dropdown-menu {
+                display: block;
+            }
+        </style>
 </head>
 
 <body style="background-color: #000000;">
@@ -25,8 +31,17 @@
     <nav class="bg-white shadow fixed w-full z-10">
         <div class="container mx-auto px-4">
             <div class="flex items-center justify-between h-16">
-                <div class="flex-shrink-0">
+                <div class="flex-shrink-0 flex items-center space-x-4">
                     <a href="/index.html" class="text-xl font-bold text-gray-900">Valeria Arenas</a>
+                    <div class="relative dropdown">
+                        <button id="contactBtn" class="bg-white text-black px-2 py-2 rounded-md hover:bg-gray-100">Contact Information</button>
+                        <div class="absolute right-0 mt-2 w-60 bg-white text-black rounded-lg shadow-lg hidden dropdown-menu">
+                            <div class="px-4">
+                                <p>Email: vava.tx66@gmail.com</p>
+                                <p>Phone: (915) 234-0232</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <form>
