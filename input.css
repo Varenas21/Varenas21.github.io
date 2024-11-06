@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #2d2d2d;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+  
+      .container {
+        display: flex;
+        max-width: 1000px;
+        width: 100%;
+        padding: 20px;
+      }
+  
+      /* Left Side - Image Section */
+      .image-section {
+        width: 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .image-placeholder {
+        width: 200px;
+        height: 200px;
+        background-color: #e0e0e0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+        font-size: 24px;
+        text-align: center;
+      }
+  
+      /* Right Side - Content Section */
+      .content-section {
+        width: 66.67%;
+      }
+  
+      /* Tabs */
+      .tabs {
+        display: flex;
+        margin-bottom: 10px;
+      }
+  
+      .tab {
+        padding: 10px 20px;
+        background-color: #444;
+        color: white;
+        border-radius: 8px 8px 0 0;
+        cursor: pointer;
+        margin-right: 5px;
+        transition: background-color 0.3s ease;
+      }
+  
+      .tab.active {
+        background-color: #333;
+      }
+  
+      /* Content Box */
+      .content-box {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 0 0 8px 8px;
+      }
+  
+      .content-box p {
+        line-height: 1.6;
+      }
