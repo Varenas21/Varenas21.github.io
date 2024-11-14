@@ -35,8 +35,8 @@
       }
   
       .profile-image {
-        width: 200px; /* Size of the circle */
-        height: 200px;
+        width: 500px; /* Size of the circle */
+        height: 500px;
         object-fit: cover; /* Ensures the image covers the entire circle without distortion */
         border-radius: 100%; /* Makes the image circular */
       }
