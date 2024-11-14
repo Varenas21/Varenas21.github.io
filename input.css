@@ -28,7 +28,7 @@
   
       /* Left Side - Image Section */
       .image-section {
-        width: 100%;
+        width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
