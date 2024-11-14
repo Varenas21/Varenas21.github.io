@@ -34,21 +34,16 @@
         justify-content: center;
       }
   
-      .image-placeholder {
-        width: 500px;
-        height: 500px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #666;
-        font-size: 24px;
-        text-align: center;
+      .profile-image {
+        width: 200px; /* Size of the circle */
+        height: 200px;
+        object-fit: cover; /* Ensures the image covers the entire circle without distortion */
+        border-radius: 50%; /* Makes the image circular */
       }
   
       /* Right Side - Content Section */
       .content-section {
-        width: 100%;
+        width: 30%;
       }
   
       /* Tabs */
