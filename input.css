@@ -63,13 +63,13 @@
       }
   
       .tab.active {
-        background-color: #333;
+        background-color: #A34054;
       }
   
       /* Content Box */
       .content-box {
         background-color: #44174E;
-        padding: 20px;
+        padding: 50px;
         border-radius: 0 0 8px 8px;
       }
   
