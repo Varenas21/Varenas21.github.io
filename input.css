@@ -54,7 +54,7 @@
   
       .tab {
         padding: 10px 20px;
-        background-color: #444;
+        background-color: #662249;
         color: white;
         border-radius: 8px 8px 0 0;
         cursor: pointer;
@@ -68,7 +68,7 @@
   
       /* Content Box */
       .content-box {
-        background-color: #333;
+        background-color: #44174E;
         padding: 20px;
         border-radius: 0 0 8px 8px;
       }
