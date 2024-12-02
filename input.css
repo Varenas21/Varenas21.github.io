@@ -63,6 +63,11 @@ header {
   display: inline-block;
 }
 
+.hero-text {
+  z-index: 1; /* Ensure text appears above the image */
+  margin-bottom: 30px; /* Space between text and image */
+}
+
 .Profile{
   display: flex;
   align-items: center;
