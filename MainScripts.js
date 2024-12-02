@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
         category: "Tool & Technologies",
-        skills: ["Visual Studio", "Git | Github | BitBucket"]
+        skills: ["Visual Studio", "Git | Github | BitBucket", "Jira | Trello", "Unity Engine | Unreal Engine", "MongoDB | SQL", "Microsoft Office Tools"]
     },
     {
         category: "Other Skills",
