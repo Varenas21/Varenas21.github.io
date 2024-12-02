@@ -6,6 +6,11 @@
 #F0EBD8 - Light Beige (for light background, text)
 */
 
+@font-face{
+  font-family: League Spartan;
+  src: url("./fonts/league-spartan/LeagueSpartan-Bold.otf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +18,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: League Spartan;
   line-height: 1.6;
   background-color: #F0EBD8;
   color: #748CAB;
