@@ -61,6 +61,7 @@ header {
 .hero-text {
   z-index: 1; /* Ensure text appears above the image */
   margin-bottom: 10px; /* Space between text and image */
+  color:#192A51;
 }
 
 .typewriter-text {
