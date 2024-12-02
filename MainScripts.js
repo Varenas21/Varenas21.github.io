@@ -10,3 +10,13 @@ document.querySelector('nav').addEventListener('click',function(event) {
         event.preventDefault();
     }
 })
+
+// Typewriter effect
+const typed = new Typed('.element', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 40,
+    backDelay: 1000,
+    loop: true,
+    loopCount: 3,
+    cursorChar: '_'
+});
