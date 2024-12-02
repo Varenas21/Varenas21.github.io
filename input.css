@@ -27,6 +27,16 @@ header {
   padding: 10px 0;
 }
 
+a:link, a:visited{
+  color:#F5A623;
+}
+
+a:hover{
+  transition: #f1f1f1 0.3s ease;
+}
+
+
+
 nav ul {
   list-style-type:none;
   text-align: center;
