@@ -55,12 +55,17 @@ header {
 .hero p{
   font-size: 1.25rem;
   margin-bottom: 20px;
+}
+
+.typewriter-text {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 20px;
   white-space: nowrap;
-  overflow:hidden;
+  overflow: hidden;
   border-right: 3px solid #333;
   width: 0;
-  animation: typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
-  display: inline-block;
+  animation: typing 6s steps(30) 1s forwards, blink 0.75s step-end infinite;
 }
 
 .hero-text {
