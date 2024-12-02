@@ -1,10 +1,9 @@
 /* COLOR PALETTE
-#150016 - Deep purple
-#29104A - Dark Purple
-#522C5D
-#845162
-#E3B6B1 - Light Beige
-#FFE3D8 - Soft peach
+#332941 - Dark Puple
+#3B3486 - Violet Blue
+#864AF9
+#FFE91B1
+#FFFFF
 */
 
 * {
@@ -17,13 +16,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  background-color: #E3B6B1;
-  color: #150016;
+  background-color: #FFFFFF;
+  color: #332941;
 }
 
 /* Navbar */
 header {
-  background-color: #29104A;
+  background-color: #FFFFFF;
   color: white;
   padding: 10px 0;
 }
@@ -60,13 +59,13 @@ section{
 }
 
 h1,h2{
-  color:#150016;
+  color:#332941;
 }
 
 /* Skill list */
 ul li{
   margin: 5px 0;
-  color: #522C5D;
+  color: #3B3486;
 }
 
 /* Project Section */
@@ -75,7 +74,7 @@ ul li{
 }
 
 button{
-  background-color: #522C5D;
+  background-color: #864AF9;
   color:white;
   border:none;
   padding: 10px 20px;
@@ -85,13 +84,13 @@ button{
 }
 
 button:hover{
-  background-color: #29104A;
+  background-color: #FFE91B;
 }
 
 footer{
   text-align: center;
   padding:10px;
-  background-color: #29104A;
+  background-color: #332941;
   color:white;
 
 }
