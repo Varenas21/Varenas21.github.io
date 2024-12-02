@@ -165,25 +165,43 @@ footer{
   color:#F0EBD8;
 
 }
+/* Skills */
+#Skills{
+  padding: 20px;
+  background-color: #1D2D44;
+  color: #F0EBD8;
 
-/* Media query for responsiveness */
-@media (max-wdith: 786px)
-{
-  nav ul{
-    text-align:left;
-    padding-left: 20px;
-
-  }
-
-  nav ul li{
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  section{
-    margin:10px;
-  }
 }
+
+.skills-container{
+  display:flex;
+  jsutify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.skills-list{
+  flex: 1;
+  min-width: 250px;
+  margin: 0;
+}
+
+.skills-list h3{
+  color: #F0EBD8;
+  margin-bottom: 10px;
+}
+
+.skills-list ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li{
+  margin-bottom: 8px;
+  color: #748CAB;
+}
+
+
 
 @keyframes typing {
   from {width: 0;}
@@ -192,4 +210,13 @@ footer{
 
 @keyframes blink {
   50% {border-color: transparent;}
+}
+
+/* Media query for responsiveness */
+@media (max-wdith: 786px)
+{
+  .skills-container{
+    flex-direction: column;
+    gap: 20px;
+  }
 }
