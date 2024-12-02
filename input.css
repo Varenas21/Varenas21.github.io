@@ -1,9 +1,9 @@
 /* COLOR PALETTE
-#1A1A1D – Dark Grayish Purple (for background and main sections)
-#2D2A44 – Very Dark Purple (for header, footer, and navigation)
-#F5A623 – Warm Gold (for buttons, highlights, and links)
-#E3E3E3 – Light Gray (for text and borders)
-#F1F1F1 – Off-white (for text and content details)
+F5E6E8 - Soft Pinkish Beige (Light Background)
+D5C6E0 - Light Lavender (Soft Accent)
+AAA1C8 - Light Purple (Subtle Accent)
+967AA1 - Dusty Lavender (Text and Accent)
+192A51 - Dark Navy Blue (Background and Strong Accents)
 */
 
 * {
@@ -16,14 +16,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  background-color: #1A1A1D;
-  color: #E3E3E3;
+  background-color: #F5E6E8;
+  color: #967AA1;
 }
 
 /* Navbar */
 header {
-  background-color: #2D2A44;
-  color: #F5A623;
+  background-color: #192A51;
+  color: white;
   padding: 10px 0;
 }
 
@@ -42,7 +42,7 @@ header {
   align-items: center;
   justify-content: center;
   height:60vh;
-  background-color: #F5A623;
+  background-color: #D5C6E0;
   color: white;
   text-align:center;
   padding:20px;
@@ -52,7 +52,7 @@ header {
 .hero h1{
   font-size: 3rem;
   margin-bottom: 5px;
-  color:#2D2A44;  
+  color:#192A51;  
 }
 
 .hero p{
@@ -71,7 +71,7 @@ header {
   margin-top: 10px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid #333;
+  border-right: 3px solid #967AA1;
   width: 0;
   animation: typing 6s steps(30) 1s forwards, blink 0.75s step-end infinite;
 }
@@ -89,11 +89,11 @@ header {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  border: 5px solid #F5A623;
+  border: 5px solid #967AA1;
 }
 
 a:link, a:visited{
-  color:#F5A623;
+  color:#AAA1C8;
 }
 
 a:hover{
@@ -114,26 +114,26 @@ nav ul li{
 
 nav ul li a {
   text-decoration: none;
-  color: #F5A623;
+  color: white;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #F1F1F1;
+  color: #D5C6E0;
 }
 
 /* Sections */
 section{
   padding: 20px;
   margin: 20px;
-  background-color: #2D2A44;
+  background-color: #192A51;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba (0,0,0,0.1);
 }
 
 h1,h2{
-  color: #f5a623;
+  color: #F5E6E8;
 }
 
 /* Skill list */
@@ -148,7 +148,7 @@ ul li{
 }
 
 button{
-  background-color: #F5A623;
+  background-color: #AAA1C8;
   color:#1A1A1D;
   border:none;
   padding: 10px 20px;
@@ -158,15 +158,15 @@ button{
 }
 
 button:hover{
-  background-color: #F1F1F1;
-  color:#1A1A1D;
+  background-color: #967AA1;
+  color:#F5E6E8;
 }
 
 footer{
   text-align: center;
   padding:10px;
-  background-color: #2D2A44;
-  color:#f5a623;
+  background-color: #192A51;
+  color:#F5E6E8;
 
 }
 
