@@ -50,6 +50,9 @@ header {
   font-size: 3rem;
   margin-bottom: 10px;
   color:#2D2A44;
+  overflow:hidden;
+  border-right: 3px solid #333;
+  width: 0;
   animation: typing 4s steps(40) 1s forwards, blink 0.75s step-end infinite;
 }
 
@@ -58,18 +61,11 @@ header {
   margin-bottom: 20px;
 }
 
-/* Typewriter effect */
-.typed-cursor{
-  font-weight: 900;
-  box-shadow: 0px 1px;
-  font-size: 1.3em;
-}
-
 .Profile{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -100px autp 40px auto;
+  margin: -100px auto 40px auto;
   text-align: center;
 }
 
