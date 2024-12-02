@@ -55,12 +55,12 @@ header {
 
 .hero p{
   font-size: 1.25rem;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .hero-text {
   z-index: 1; /* Ensure text appears above the image */
-  margin-bottom: 30px; /* Space between text and image */
+  margin-bottom: 10px; /* Space between text and image */
 }
 
 .typewriter-text {
