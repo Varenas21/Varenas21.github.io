@@ -35,19 +35,41 @@ header {
   margin: 0 auto;
 }
 
+/* Hero section */
+.hero{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  background-color: #F5A623;
+  color: white;
+  text-align:center;
+}
+
+.hero h1{
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p{
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
 .Profile{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  margin: -100px autp 40px auto;
+  text-align: center;
 }
 
-.profile-img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  border-radius:50%;
+.hero .profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 20px;
 }
 
 a:link, a:visited{
