@@ -84,6 +84,14 @@ const projects = [
     
     },
     {
+        name: "AR Escape Room",
+        description: "AR Virtual escape room. Using Niantic's Lightship tools in Unity, being able to place objects in the world based on world mesh creation using LiDAR",
+        link: "https://github.com/Varenas21/AR-Escape-Room",
+        image: "https://github.com/Varenas21/AR-Escape-Room/raw/b7a965809b77779e01442b822788e020c2377a2d/image_2024-08-26_120351134.png",
+        released: false,
+        releasedLink: ""
+      },
+    {
       name: "NotABurger",
       description: "An ARG (Alternate Reality Game) website based on WhatABurger, featuring hidden secrets and interactive elements throughout the site. This project demonstrates an innovative use of web design and storytelling to create an immersive user experience.",
       link: "https://github.com/MFBarker/NOTABURGER-2.0",
@@ -98,7 +106,15 @@ const projects = [
       image: "https://img.itch.zone/aW1hZ2UvMjIyODQxMy8xMzE5MjQ1OS5wbmc=/794x1000/jGs3xj.png",
       released: true,
       releasedLink: "https://varenas.itch.io/dire-authority"
-    }
+    },
+    {
+        name: "NotABurger (THE GAME)",
+        description: "Personal post graduation project, taking the concept of NotABurger and creating it into a mixed 2D/3D Game. Currently in progress.",
+        link: "https://github.com/Varenas21/NotABurger-Game",
+        image: "https://github.com/MFBarker/NOTABURGER/blob/main/Resources/Notaburger%20Logo.png?raw=true",
+        released: false,
+        releasedLink: ""
+      }
   ];
   
   
