@@ -1,78 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-    /* Basic Reset */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-  
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #1B1931;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-      }
-  
-      .container {
-        display: flex;
-        max-width: 1000px;
-        width: 100%;
-        padding: 20px;
-      }
-  
-      /* Left Side - Image Section */
-      .image-section {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-  
-      .profile-image {
-        width: 500px; /* Size of the circle */
-        height: 500px;
-        object-fit: cover; /* Ensures the image covers the entire circle without distortion */
-        border-radius: 100%; /* Makes the image circular */
-      }
-  
-      /* Right Side - Content Section */
-      .content-section {
-        width: 50%;
-      }
-  
-      /* Tabs */
-      .tabs {
-        display: flex;
-        margin-bottom: 10px;
-      }
-  
-      .tab {
-        padding: 10px 20px;
-        background-color: #662249;
-        color: white;
-        border-radius: 8px 8px 0 0;
-        cursor: pointer;
-        margin-right: 5px;
-        transition: background-color 0.3s ease;
-      }
-  
-      .tab.active {
-        background-color: #A34054;
-      }
-  
-      /* Content Box */
-      .content-box {
-        background-color: #44174E;
-        padding: 50px;
-        border-radius: 0 0 8px 8px;
-      }
-  
-      .content-box p {
-        line-height: 1.6;
-      }
+/* COLOR PALETTE
+#150016
+#29104A
+#522C5D
+#845162
+#E3B6B1
+#FFE3D8
+*/
