@@ -1,9 +1,9 @@
 /* COLOR PALETTE
-#332941 - Dark Puple
-#3B3486 - Violet Blue
-#864AF9
-#FFE91B1
-#FFFFF
+#1A1A1D – Dark Grayish Purple (for background and main sections)
+#2D2A44 – Very Dark Purple (for header, footer, and navigation)
+#F5A623 – Warm Gold (for buttons, highlights, and links)
+#E3E3E3 – Light Gray (for text and borders)
+#F1F1F1 – Off-white (for text and content details)
 */
 
 * {
@@ -16,14 +16,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  background-color: #FFFFFF;
-  color: #332941;
+  background-color: #1A1A1D;
+  color: #E3E3E3;
 }
 
 /* Navbar */
 header {
-  background-color: #FFFFFF;
-  color: white;
+  background-color: #2D2A44;
+  color: #F5A623;
   padding: 10px 0;
 }
 
@@ -40,32 +40,32 @@ nav ul li{
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #F5A623;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #FFE3D8;
+  color: #F1F1F1;
 }
 
 /* Sections */
 section{
   padding: 20px;
   margin: 20px;
-  background-color: #FFE3D8;
+  background-color: #2D2A44;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba (0,0,0,0.1);
 }
 
 h1,h2{
-  color:#332941;
+  color: #f5a623;
 }
 
 /* Skill list */
 ul li{
   margin: 5px 0;
-  color: #3B3486;
+  color: #F1F1F1;
 }
 
 /* Project Section */
@@ -74,8 +74,8 @@ ul li{
 }
 
 button{
-  background-color: #864AF9;
-  color:white;
+  background-color: #F5A623;
+  color:#1A1A1D;
   border:none;
   padding: 10px 20px;
   cursor: pointer;
@@ -84,14 +84,15 @@ button{
 }
 
 button:hover{
-  background-color: #FFE91B;
+  background-color: #F1F1F1;
+  color:#1A1A1D;
 }
 
 footer{
   text-align: center;
   padding:10px;
-  background-color: #332941;
-  color:white;
+  background-color: #2D2A44;
+  color:#f5a623;
 
 }
 
