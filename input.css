@@ -1,8 +1,116 @@
 /* COLOR PALETTE
-#150016
-#29104A
+#150016 - Deep purple
+#29104A - Dark Purple
 #522C5D
 #845162
-#E3B6B1
-#FFE3D8
+#E3B6B1 - Light Beige
+#FFE3D8 - Soft peach
 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #E3B6B1;
+  color: #150016;
+}
+
+/* Navbar */
+header {
+  background-color: #29104A;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type:none;
+  text-align: center;
+
+}
+
+nav ul li{
+  display: inline;
+  margin-right:20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #FFE3D8;
+}
+
+/* Sections */
+section{
+  padding: 20px;
+  margin: 20px;
+  background-color: #FFE3D8;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba (0,0,0,0.1);
+}
+
+h1,h2{
+  color:#150016;
+}
+
+/* Skill list */
+ul li{
+  margin: 5px 0;
+  color: #522C5D;
+}
+
+/* Project Section */
+.project{
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: #522C5D;
+  color:white;
+  border:none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: #29104A;
+}
+
+footer{
+  text-align: center;
+  padding:10px;
+  background-color: #29104A;
+  color:white;
+
+}
+
+/* Media query for responsiveness */
+@media (max-wdith: 786px)
+{
+  nav ul{
+    text-align:left;
+    padding-left: 20px;
+
+  }
+
+  nav ul li{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  section{
+    margin:10px;
+  }
+}
