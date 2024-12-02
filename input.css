@@ -68,7 +68,7 @@ header {
 .typewriter-text {
   display: inline-block;
   font-size: 1.5rem;
-  margin-top: 20px;
+  margin-top: 10px;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid #333;
