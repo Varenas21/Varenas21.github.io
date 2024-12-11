@@ -7,11 +7,11 @@
 */
 
 :root{
-  --dark-brown: #2A0800;
-  --medium-brown: #775144;
-  --light-pink: #C09891;
-  --soft-beige: #BEA8A7;
-  --light-beige: #F4DBD8;
+  --dark-navy: #212A31;
+  --medium-navy: #2E3944;
+  --light-blue: #124E66;
+  --light-blue: #748D92;
+  --blue-white: #D3D9D4;
 }
 
 @font-face{
@@ -28,13 +28,13 @@
 body {
   font-family: League Spartan;
   line-height: 1.6;
-  background-color: var(--light-beige);
-  color: var(--medium-brown);
+  background-color: var(--blue-white);
+  color: var(--medium-navy);
 }
 
 /* Navbar */
 header {
-  background-color: var(--dark-brown);
+  background-color: var(--dark-navy);
   color: white;
   padding: 10px 0;
 }
@@ -54,7 +54,7 @@ header {
   align-items: center;
   justify-content: center;
   height:60vh;
-  background: var(--medium-brown);
+  background: var(--light-blue);
   text-align:center;
   padding:20px;
   position: relative;
@@ -62,7 +62,7 @@ header {
 
 .hero h1{
   font-size: 3rem;
-  color:var(--dark-brown);  
+  color:var(--dark-navy);  
 }
 
 .hero p{
@@ -73,7 +73,7 @@ header {
 .hero-text {
   z-index: 1; /* Ensure text appears above the image */
   margin-bottom: 10px; /* Space between text and image */
-  color:var(--dark-brown);
+  color:var(--dark-navy);
 }
 
 .typewriter-text {
@@ -82,7 +82,7 @@ header {
   margin-top: 10px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid var(--medium-brown);
+  border-right: 3px solid var(--medium-navy);
   width: 0;
   animation: typing 6s steps(30) 1s forwards, blink 0.75s step-end infinite;
 }
@@ -100,11 +100,11 @@ header {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  border: 5px solid var(--dark-brown);
+  border: 5px solid var(--dark-navy);
 }
 
 a:link, a:visited{
-  color: var(--medium-brown);
+  color: var(--blue-white);
 }
 
 nav ul {
@@ -126,14 +126,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--medium-brown);
+  color: var(--medium-navy);
 }
 
 /* Sections */
 section{
   padding: 20px;
   margin: 20px;
-  background-color: var(--dark-brown);
+  background-color: var(--light-blue);
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba (0,0,0,0.1);
   align-items: center;
@@ -141,13 +141,13 @@ section{
 }
 
 h1,h2{
-  color: var(--light-beige);
+  color: var(--blue-white);
 }
 
 /* Skill list */
 ul li{
   margin: 5px 0;
-  color: var(--light-beige);
+  color: var(--blue-white);
 }
 
 /* Project Section */
@@ -161,7 +161,7 @@ ul li{
 #Projects h1{
   font-size:2.5em;
   margin-bottom: 40px;
-  color: var(--light-beige);
+  color: var(--blue-white);
 }
 
 .projects-container{
@@ -173,8 +173,8 @@ ul li{
 
 /* Cards for projects */
 .project-card {
-  background-color: var(--medium-brown);
-  color: var(--light-beige);
+  background-color: var(--medium-navy);
+  color: var(--blue-white);
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -190,13 +190,13 @@ ul li{
 .project-card p{
   font-size: 1em;
   margin-bottom: 20px;
-  color: var(--light-beige);
+  color: var(--blue-white);
 }
 
 .project-card a{
   display: inline-block;
   padding:10px 20px;
-  background-color: var(--dark-brown);
+  background-color: var(--dark-navy);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -205,7 +205,7 @@ ul li{
 
 .project-card a:hover
 {
-  background-color: var(--medium-brown);
+  background-color: var(--medium-navy);
 }
 
 .project-card:hover
@@ -218,7 +218,7 @@ ul li{
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: var(--medium-brown); 
+  background-color: var(--medium-navy); 
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -227,11 +227,11 @@ ul li{
 }
 
 .released-button:hover {
-  background-color: var(--light-pink); /* Darker green on hover */
+  background-color: var(--light-blue); /* Darker green on hover */
 }
 
 button{
-  background-color: var(--medium-brown);
+  background-color: var(--medium-navy);
   color:#1A1A1D;
   border:none;
   padding: 10px 20px;
@@ -241,22 +241,22 @@ button{
 }
 
 button:hover{
-  background-color: var(--light-pink);
-  color:var(--light-beige);
+  background-color: var(--light-blue);
+  color:var(--blue-white);
 }
 
 footer{
   text-align: center;
   padding:10px;
-  background-color: var(--dark-brown);
-  color:var(--light-beige);
+  background-color: var(--dark-navy);
+  color:var(--blue-white);
 
 }
 /* Skills */
 #Skills{
   padding: 20px;
-  background-color: var(--dark-brown);
-  color: var(--light-beige);
+  background-color: var(--light-blue);
+  color: var(--blue-white);
 
 }
 
@@ -274,7 +274,7 @@ footer{
 }
 
 .skills-list h3{
-  color: var(--light-beige);
+  color: var(--blue-white);
   margin-bottom: 10px;
 }
 
@@ -285,15 +285,15 @@ footer{
 
 .skills-list li{
   margin-bottom: 8px;
-  color: var(--medium-brown);
+  color: var(--medium-navy);
 }
 
 .download-btn {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: var(--dark-brown); /* Green color */
-  color: var(--light-beige);
+  background-color: var(--dark-navy); /* Green color */
+  color: var(--blue-white);
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -301,7 +301,7 @@ footer{
 }
 
 .download-btn:hover {
-  background-color: var(--medium-brown); /* Darker green on hover */
+  background-color: var(--medium-navy); /* Darker green on hover */
 }
 
 @keyframes typing {
