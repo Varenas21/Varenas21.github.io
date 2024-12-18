@@ -71,8 +71,8 @@ const projects = [
       description: "A task manager application designed to help children complete chores in a fun and engaging way. Tasko allows parents to set tasks for their children, turning everyday chores into a rewarding and interactive experience.",
       link: "https://github.com/Varenas21/TaskoCapstone",
       image: "https://github.com/Varenas21/TaskoCapstone/blob/master/TaskoCapstone/wwwroot/images/Logo.png?raw=true",
-      released: false,
-      releasedLink: ""
+      released: true,
+      releasedLink: "This video showcases the final presentation of my Capstone Project, Tasko. It highlights my core skills in software and game development."
     },
     {
       name: "LightGone",
